@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+}
+.layout {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 10vh;
+}
+
+.sidebar {
+  min-height: 100%;
+  width: 300px;
+
+  background: conic-gradient(
+    from 116.57deg at 0% 50%,
+    #5f90ee -82.61deg,
+    rgba(41, 48, 228, 0.92) 87.61deg,
+    #2f3be5 256.55deg,
+    #5f90ee 277.39deg,
+    rgba(41, 48, 228, 0.92) 447.61deg
+  );
+  border-radius: 4px;
+  box-shadow: 0 0 2px gray;
+  color: white;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.body {
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+}
+.logo h6 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 20px 0px;
+}
+.menu {
+  margin-top: 50px;
+}
+.menu-item {
+  margin-top: 30px;
+}
+.menu-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.menu-item i {
+  font-size: 1.2rem;
+  margin: 0 15px;
+}
+.active {
+  background-color: white;
+  padding: 10px;
+}
+.active a,
+.active i {
+  color: rgb(51, 1, 1);
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  justify-content: flex-end;
+  margin: 0 15px;
+}
+
+.header-content i {
+  margin-right: 20px;
+  font-size: 1.2rem;
+}
+.header-content a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: blue;
+  margin: 0 10px;
+  text-transform: uppercase;
+}
