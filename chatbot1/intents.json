@@ -1,0 +1,164 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Hello",
+          "Good morning",
+          "Good afternoon",
+          "Good evening",
+          "Excuse me"
+        ],
+        "responses": [
+          "Hello! How may I assist you today?",
+          "Hi there! How can I help you?",
+          "Good Day! What can I do for you today?",
+          "Welcome! How can I be of service?"
+        ]
+      },
+      {
+        "tag": "health",
+        "patterns": [
+          "I am not feeling good what should I do ?",
+          "I am having slight fever",
+          "My health is not great help me."
+        ],
+        "responses": [
+          "I am saddened to hear that, if you want you can book a doctors appointment",
+          "I see, If you can tell me more about your problem then I can assist you better.",
+          "Fatigue and bad environment often result in poor health conditions; you should take some rest and eat properly if that doesn't help you can consult with professional and can book an appointment."
+        ]
+      },
+      {
+        "tag": "Cold",
+        "patterns": [
+          "I got common cold what should I do?",
+          "What's the best drug for common cold?",
+          "I got common cold what medicine should I take?",
+          "Recommend some cure for cold.",
+          "I caught a cold help me"
+        ],
+        "responses": [
+          "👉🏽Use decongestant nasal sprays and cough syrups 👉🏽Drink plenty of fluids 👉🏽Eat chicken soup 👉🏽Rest well 👉🏽Gargle with salt water to soothe sore throat .If you still feel unwell you should consult with one of our professionals.",
+          "Brompheniramine and Cetirizine can help to reduce cold allergy but it is recommended to take a doctors advice for proper doses and use of such medicine.If you want you can book an appointment on our site for a checkup."
+        ]
+      },
+      {
+        "tag": "Head",
+        "patterns": [
+          "What medicine should I take to reduce stress and headache?",
+          "I got headache what should I do?",
+          "My head is in pain help me",
+          "Recommend some medicine for headache.",
+          "Recommend some medicine for stress.",
+          "Can you recommend something to relieve me from headache",
+          "Can you recommend something to relieve me from stress"
+        ],
+        "responses": [
+          "Take ample amount of sleep and use herbal tea which is effective in reducing stress and helps to fall asleep",
+          "Aspirin, Acetaminophen or similar types of drugs can be used to cure headache(Disprin can also be used but stop if it shows side effects"
+        ]
+      },
+      {
+        "tag": "Stomach",
+        "patterns": [
+          "Can you recommend something to improve digestion ?",
+          "Can you recommend something to clear my stomach and relieve from stomach ache?",
+          "My stomach is hurting help me.",
+          "Medicine to cure stomach ache"
+        ],
+        "responses": [
+          "Gastroesophageal reflux disease can cause stomach aches and burning sensations, and an antacid or acid reducer like Pepcid AC or Zantac 75 can help. It is advised to consult medical professional if the pain is intense or is not cured after a few doses of the above mentioned medicine."
+        ]
+      },
+      {
+        "tag": "High Blood Pressure",
+        "patterns": [
+          "Can you recommend something to increase blood pressure ?",
+          "Medicine for high blood pressure?",
+          "What should I use during high blood pressure.",
+          "I have got high blood pressure help me."   
+        ],
+        "responses": [
+          "Lisinopril (Zestril): used to treat high blood pressure (hypertension) in adults and children who are at least 6 years old.Although it is recommended to use after instruction from trained doctors.",
+          "Amlodipine (Norvasc, Amvaz): used to treat high blood pressure (hypertension) or chest pain (angina).Although it is recommended to use after instruction from trained professionals."
+        ]
+      },
+      {
+        "tag": "High Blood cholesterol",
+        "patterns": [
+          "Can you recommend something to decrease blood cholesterol ?",
+          "Medicine for high blood cholesterol?",
+          "What should I do I have high blood cholesterol.",
+          "I have got high blood cholesterol help me."         
+        ],
+        "responses": [
+          "Atorvastatin (Lipitor): used to lower cholesterol if you have been diagnosed with high blood cholesterol and prevent heart disease, including heart attacks and strokes.Although it is recommended to use after instruction from trained doctors."
+        ]
+      },
+      {
+        "tag": "Blood Sugar",
+        "patterns": [
+          "Can you recommend something to improve blood sugar control ?",
+          "Medicine for controlling blood sugar?",
+          "Medicine to reduce blood sugar?",
+          "Medicine to lower blood sugar?",
+          "I have got high blood sugar help me."         
+        ],
+        "responses": [
+          "Metformin (Glucophage): used together with diet and exercise to improve blood sugar control in adults with type 2 diabetes mellitus.Although it is recommended to use after instruction from trained doctors."
+        ]
+      },
+      {
+        "tag": "Seizer",
+        "patterns": [
+          "Can you recommend something to use during seizers?",
+          "My baby is _ years old and he got seizers what should I do?",
+          "My son is _ years old and he got seizers what should I do?",
+          "My daughter is _ years old and he got seizers what should I do?",
+          "Medicine to control seizers"         
+        ],
+        "responses": [
+          "Gabapentin (Neurontin): used to treat seizures in adults and children who are at least 3 years old.It is still advice to do a checkup with a professional after the first aid"
+        ]
+      },
+      {
+        "tag": "Cough & Runny noses",
+        "patterns": [
+          "Can you recommend something to use during runny noses?",
+          "I have got extreme cough help me.",
+          "I have runny noses pls give me some medicine",
+          "I got cough and runny noses what should I take?",
+          "Can you recommend something to relive me of my cough or ease it."        
+        ],
+        "responses": [
+          "Some common cough syrups include Hamdard and Koflet.However, it is important to consult with a doctor or pharmacist before taking any medication to ensure it is safe for you to use and wont interact with any other medications you may be taking.",
+          "For runny noses, some common medicines include Dextromethorphan (Robitussin), Guaifenesin (Mucinex) and Pseudoephedrine (Sudafed).However, it is important to consult with a doctor or pharmacist before taking any medication to ensure it is safe for you to use and wont interact with any other medications you may be taking."
+        ]
+      },
+      {
+        "tag": "contact",
+        "patterns": [
+          "How can I contact a doctor?",
+          "Can you help me make an appointment with a doctor?",
+          "What's the best way to schedule an appointment with a doctor?",
+          "Can I book an appointment?"
+        ],
+        "responses": [
+          "Here how you can book an appointment \n\n 1. Register yourself into the portal. If done then login using credentials \n 2. Then from the side panel select Home \n 3. Select the doctor you want to consult with \n 4. Then select a date the check for availability , if available then a request will go to admin \n 5. Once you confirm the appointment it will be looked and booked.",
+          "I'm sorry, but as an AI, I am not authorized to book appointments with doctors. However, I can guide you to book an appointment.\n 1. Register yourself into the portal. If done then login using credentials \n 2. Then from the side panel select Home \n 3. Select the doctor you want to consult with \n 4. Then select a date the check for availability , if available then a request will go to admin \n 5. Once you confirm the appointment it will be looked and booked."
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Thanks for your help", "Thank you","alright"],
+        "responses": [
+          "Goodbye! Have a great day!",
+          "Take care, and have a good one!",
+          "It was my pleasure helping you! Feel free to come back anytime."
+        ]
+      }
+    ]
+  }

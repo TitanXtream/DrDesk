@@ -8,6 +8,7 @@ import { Badge, message } from "antd";
 import logo from "../assets/logo.png";
 import { CgProfile } from "react-icons/cg";
 import { RiNotification3Fill } from "react-icons/ri";
+import ChatBot from "./ChatBot";
 
 const Layout = ({ children }) => {
   const { user } = useSelector((state) => state.user);
@@ -77,15 +78,13 @@ const Layout = ({ children }) => {
                 {SidebarMenu.map((menu, index) => {
                   const isActive = location.pathname === menu.path;
                   return (
-                    <>
-                      <div
-                        className={`menu-item ${isActive && "active"}`}
-                        key={index}
-                      >
-                        <i className={menu.icon}></i>
-                        <Link to={menu.path}>{menu.name}</Link>
-                      </div>
-                    </>
+                    <div
+                      className={`menu-item ${isActive && "active"}`}
+                      key={index}
+                    >
+                      <i className={menu.icon}></i>
+                      <Link to={menu.path}>{menu.name}</Link>
+                    </div>
                   );
                 })}
                 <div className={`menu-item `} onClick={handleLogout}>
@@ -97,6 +96,7 @@ const Layout = ({ children }) => {
             <div className="body">{children}</div>
           </div>
         </div>
+        <ChatBot />
       </div>
     </>
   );
